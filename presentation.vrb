@@ -1,0 +1,6 @@
+\frametitle{An example of Reproducibility - This Presentation}
+
+		This presentation is reproducible as it is written in code (Latex)\\[10pt]
+		\includegraphics[width=\textwidth,keepaspectratio]{latex_example.png}
+		
+	
