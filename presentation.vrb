@@ -1,6 +1,12 @@
-\frametitle{An example of Reproducibility - This Presentation}
-
-		This presentation is reproducible as it is written in code (Latex)\\[10pt]
-		\includegraphics[width=\textwidth,keepaspectratio]{latex_example.png}
-		
-	
+\frametitle{Creating geometry using Python}
+		\footnotesize
+		\begin{lstlisting}[language=Python]
+import matplotlib.pyplot as plt
+fig = plt.figure(figsize=(10,8),dpi=300)
+ax = fig.add_subplot(111, projection='3d')
+bim.plot(ax)
+		\end{lstlisting}
+		\begin{figure}
+			%\centering
+			\includegraphics[width=0.7\textwidth,keepaspectratio]{"C:/Users/cvskf/OneDrive - Loughborough University/_Git/stevenkfirth/PythonGeometryPaper/4_1_Case_Study_Single_Zone_with_Window/Fig_4_1a".jpeg}
+		\end{figure}
